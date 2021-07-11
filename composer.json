@@ -1,0 +1,26 @@
+{
+    "name": "ghoni-jee/model-tracker",
+    "description": "automaticlly store data who is create, update, or delete data on a model",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GhoniJee\\ModelTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghoni Jee",
+            "email": "akughoni@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GhoniJee\\ModelTracker\\ModelTrackerServiceProvider"
+            ]
+        }
+    }
+}
